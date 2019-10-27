@@ -1,4 +1,4 @@
-const assers = require("assert");
+const assert = require("assert");
 
 it("Test - 1", function() {
   let obj = Object.create(null);
