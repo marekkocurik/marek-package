@@ -1,6 +1,6 @@
 {
   "name": "marek-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my first npm package",
   "main": "index.js",
   "directories": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/marekkocurik/marek-package#readme",
   "dependencies": {
+    "lukas-package": "git+https://github.com/LukasAnda/lukas-package.git#b00d8fa58da20c74c370c8cbcae1d9ccdbaf3493",
     "mocha": "^6.2.2"
   }
 }
