@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --color test/test.js"
+    "test": "mocha --color test/test.js",
+    "index": "mocha --color src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/marekkocurik/marek-package#readme",
   "dependencies": {
-    "lukas-package": "git+https://github.com/LukasAnda/lukas-package.git#b00d8fa58da20c74c370c8cbcae1d9ccdbaf3493"
+    "lukas-package": "git+https://github.com/LukasAnda/lukas-package.git#b00d8fa58da20c74c370c8cbcae1d9ccdbaf3493",
+    "random": "^2.1.1"
   },
   "devDependencies": {
     "mocha": "^6.2.2"
